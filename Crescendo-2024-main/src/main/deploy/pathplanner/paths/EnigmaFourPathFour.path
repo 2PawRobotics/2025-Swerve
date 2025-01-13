@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.6,
+        "y": 6.799930993345696
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.8964165239107422,
+        "y": 6.184058348818453
+      },
+      "isLocked": false,
+      "linkedName": "AllianceNoteOnePos"
+    },
+    {
+      "anchor": {
+        "x": 1.2337167531518534,
+        "y": 5.555162990023092
+      },
+      "prevControl": {
+        "x": 1.916972549488008,
+        "y": 6.126129617921259
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "SubwooferPos"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.85,
+      "rotationDegrees": 0.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Old",
+  "previewStartingState": {
+    "rotation": 45.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

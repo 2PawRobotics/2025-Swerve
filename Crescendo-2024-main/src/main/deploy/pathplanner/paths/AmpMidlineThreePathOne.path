@@ -1,0 +1,63 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7563113988427739,
+        "y": 6.5383776785252685
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.0246385774213753,
+        "y": 6.960278763183802
+      },
+      "isLocked": false,
+      "linkedName": "AmpOffsetSubwooferPos"
+    },
+    {
+      "anchor": {
+        "x": 2.9208403278961947,
+        "y": 6.995390431883621
+      },
+      "prevControl": {
+        "x": 2.4211959467178557,
+        "y": 6.9765359269334954
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.15,
+      "rotationDegrees": 60.0,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 0.7,
+      "rotationDegrees": 0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "AmpMidlineTwo",
+  "previewStartingState": {
+    "rotation": 60.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

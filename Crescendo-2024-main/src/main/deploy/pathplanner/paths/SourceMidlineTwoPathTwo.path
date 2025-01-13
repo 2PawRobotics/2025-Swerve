@@ -1,0 +1,64 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.94922090596061,
+        "y": 0.678964365447528
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.332333882712879,
+        "y": 0.7509757375404488
+      },
+      "isLocked": false,
+      "linkedName": "MidlineNoteFivePos"
+    },
+    {
+      "anchor": {
+        "x": 0.7296371484973552,
+        "y": 4.619015152817273
+      },
+      "prevControl": {
+        "x": 1.6046371484973547,
+        "y": 3.103470696194505
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "OffsetSubwooferPos"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0.7,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 4.0,
+        "maxAcceleration": 2.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 360.0
+      }
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 8.0,
+    "maxAcceleration": 8.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -60.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "SourceMidlineTwo",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

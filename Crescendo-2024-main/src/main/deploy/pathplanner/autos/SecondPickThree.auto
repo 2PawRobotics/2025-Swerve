@@ -1,0 +1,55 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.75,
+      "y": 6.5
+    },
+    "rotation": 60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpMidlineTwoPathOne"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpMidlineTwoPathTwo"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondPickThreePathThree"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondPickThreePathFour"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondPickThreePathFive"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondPickThreePathSix"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Old Autos",
+  "choreoAuto": false
+}

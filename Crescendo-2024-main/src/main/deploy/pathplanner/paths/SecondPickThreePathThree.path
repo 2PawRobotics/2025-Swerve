@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7563113988427739,
+        "y": 6.5383776785252685
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.6412343679368329,
+        "y": 6.797159316389297
+      },
+      "isLocked": false,
+      "linkedName": "AmpOffsetSubwooferPos"
+    },
+    {
+      "anchor": {
+        "x": 2.764970079703192,
+        "y": 6.99346460304295
+      },
+      "prevControl": {
+        "x": 1.9214082923289906,
+        "y": 6.84944185885711
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "AllianceNoteOneAugmentedPos"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.1,
+      "rotationDegrees": 60.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 2.75,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Old",
+  "previewStartingState": {
+    "rotation": 60.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

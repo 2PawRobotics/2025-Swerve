@@ -1,0 +1,23 @@
+{
+  "robotWidth": 0.64,
+  "robotLength": 0.635,
+  "holonomicMode": true,
+  "pathFolders": [
+    "AllianceFive",
+    "AllianceFour",
+    "Example Testing Paths",
+    "SourceMidlineTwo",
+    "AmpMidlineTwo",
+    "Old",
+    "SmashySmash"
+  ],
+  "autoFolders": [
+    "Example Testing Autos",
+    "Old Autos"
+  ],
+  "defaultMaxVel": 4.0,
+  "defaultMaxAccel": 2.75,
+  "defaultMaxAngVel": 540.0,
+  "defaultMaxAngAccel": 360.0,
+  "maxModuleSpeed": 22.1
+}

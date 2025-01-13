@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.393704606958085,
+        "y": 7.550906730886145
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.031519616923942,
+        "y": 6.388437438529015
+      },
+      "isLocked": false,
+      "linkedName": "MidlineNoteOnePos"
+    },
+    {
+      "anchor": {
+        "x": 8.393704606958085,
+        "y": 0.7715504152812825
+      },
+      "prevControl": {
+        "x": 8.290831218253917,
+        "y": 1.5533881694329803
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.2,
+      "rotationDegrees": -30.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 8.0,
+    "maxAcceleration": 8.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -30.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "SmashySmash",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

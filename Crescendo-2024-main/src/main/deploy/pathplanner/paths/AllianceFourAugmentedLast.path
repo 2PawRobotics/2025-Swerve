@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.393704606958085,
+        "y": 7.550906730886145
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.902040470742462,
+        "y": 7.098263820592936
+      },
+      "isLocked": false,
+      "linkedName": "MidlineNoteOnePos"
+    },
+    {
+      "anchor": {
+        "x": 1.9229684574657373,
+        "y": 7.283435920255299
+      },
+      "prevControl": {
+        "x": 2.9477178086185747,
+        "y": 6.774231966759674
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "AllianceFive",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

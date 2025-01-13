@@ -1,0 +1,61 @@
+{
+  "version": 1.0,
+  "startingPose": null,
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SubwooferPosToMidlineNoteThree"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "MidlineNoteThreeToSubwooferPos"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SubwooferPosToAllianceNoteOne"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AllianceNoteOneToSubwooferPos"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SubwooferPosToAllianceNoteTwo"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AllianceNoteTwoToSubwooferPos"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SubwooferPosToAllianceNoteThree"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AllianceNoteThreeToSubwooferPos"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Old Autos",
+  "choreoAuto": false
+}

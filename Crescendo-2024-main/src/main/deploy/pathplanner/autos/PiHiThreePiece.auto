@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.75,
+      "y": 4.48
+    },
+    "rotation": -60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "OffsetSubwooferPosToMidlineNoteFive"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "MidlineNoteFiveToSubwooferPos"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SubwooferPosToAllianceNoteThree"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AllianceNoteThreeToSubwooferPos"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Old Autos",
+  "choreoAuto": false
+}

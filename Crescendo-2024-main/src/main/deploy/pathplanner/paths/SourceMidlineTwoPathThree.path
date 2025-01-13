@@ -1,0 +1,96 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7296371484973552,
+        "y": 4.619015152817273
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.2296371484973552,
+        "y": 3.7529897490328343
+      },
+      "isLocked": false,
+      "linkedName": "OffsetSubwooferPos"
+    },
+    {
+      "anchor": {
+        "x": 5.204629557128788,
+        "y": 1.460802119599227
+      },
+      "prevControl": {
+        "x": 3.8055514707520652,
+        "y": 2.222065196010092
+      },
+      "nextControl": {
+        "x": 6.185097484589756,
+        "y": 0.9273122178925234
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.578876706625595,
+        "y": 2.540972700993022
+      },
+      "prevControl": {
+        "x": 7.303246686693876,
+        "y": 1.9134450298975794
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "MidlineNoteFourPos"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.15,
+      "rotationDegrees": -60.0,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.05,
+      "rotationDegrees": 0,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.75,
+      "rotationDegrees": 25.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0.95,
+      "maxWaypointRelativePos": 2.0,
+      "constraints": {
+        "maxVelocity": 4.0,
+        "maxAcceleration": 4.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 360.0
+      }
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 6.5,
+    "maxAcceleration": 7.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 25.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "SourceMidlineTwo",
+  "previewStartingState": {
+    "rotation": -60.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}
